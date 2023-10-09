@@ -6,7 +6,7 @@ import { OpenAIStream, StreamingTextResponse } from "ai";
 export const runtime = "edge";
 
 const config = new Configuration({
-  apiKey: "pk-lAztnOHOylWmiDCrVMmwGnvxlWsWQqxGPiPuaxETPCsyqsHB",
+  apiKey: process.env.OPENAI_KEY,
   basePath: "https://api.pawan.krd/v1",
 });
 
