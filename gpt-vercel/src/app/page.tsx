@@ -37,20 +37,3 @@ export default function Home() {
     </div>
   );
 }
-// <div>
-//   {messages.map((message) => {
-//     return (
-//       <span key={message.id}>
-//         {message.role}: {message.content}
-//       </span>
-//     );
-//   })}
-
-//   <form onSubmit={handleSubmit}>
-//     <input
-//       value={input}
-//       onChange={handleInputChange}
-//       placeholder="enter a message"
-//     />
-//   </form>
-// </div>

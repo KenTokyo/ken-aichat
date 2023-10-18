@@ -7,7 +7,7 @@ export const runtime = "edge";
 
 const config = new Configuration({
   apiKey: process.env.OPENAI_KEY,
-  basePath: "https://api.pawan.krd/v1",
+  basePath: " https://api.pawan.krd/pai-001-light-beta/v1",
 });
 
 const openai = new OpenAIApi(config);
@@ -26,21 +26,3 @@ export async function POST(req: Request) {
   const stream = OpenAIStream(response);
   return new StreamingTextResponse(stream);
 }
-
-// curl --location 'https://api.pawan.krd/v1/chat/completions' \
-// --header 'Authorization: Bearer pk-***[OUR_API_KEY]***' \
-// --header 'Content-Type: application/json' \
-// --data '{
-//     "model": "pai-001-light-beta",
-//     "max_tokens": 100,
-//     "messages": [
-//         {
-//             "role": "system",
-//             "content": "You are an helpful assistant."
-//         },
-//         {
-//             "role": "user",
-//             "content": "Who are you?"
-//         }
-//     ]
-// }'
