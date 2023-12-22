@@ -1,2 +1,1 @@
-This is an ai-chat bot made with NextJS, Vercel AI SDK.
-Feel free to check it out.
+For my AI chatbot project, I utilized Next.js 13, a popular framework for building web applications, and the Vercel AI SDK. Next.js provided a robust and efficient platform for developing the front-end interface, while the Vercel AI SDK offered powerful tools and APIs for integrating AI capabilities into the chatbot. This combination enabled me to create a seamless and interactive chatbot experience, where users could engage in conversations with the AI-powered assistant.
