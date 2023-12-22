@@ -4,7 +4,7 @@ import { Configuration, OpenAIApi } from "openai-edge";
 import { OpenAIStream, StreamingTextResponse } from "ai";
 
 export const runtime = "edge";
-
+//api key ist free to use und ip-limited, also keine env. nötig, kann ruhig public sein
 const config = new Configuration({
   apiKey: "pk-lAztnOHOylWmiDCrVMmwGnvxlWsWQqxGPiPuaxETPCsyqsHB",
   basePath: "https://api.pawan.krd/pai-001-beta/v1",
